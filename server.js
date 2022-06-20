@@ -1,9 +1,6 @@
 // Server uses express
 const express = require('express');
 
-// Database file
-//const notes = require('./db/db.json');
-
 // Routes
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');

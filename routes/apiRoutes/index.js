@@ -38,10 +38,12 @@ router.delete('/notes/:id', (req, res) => {
     // Check if note with this id exists
     const result = findById(req.params.id, notes);
 
+    // If the note exists, delete it and respond to the api call with 200 ok
     if (result) {
         deleteNote(req.params.id, notes);
         res.status(200).send(`Note with id ${req.params.id} deleted.`);
     } else {
+        // If the note does not exist, respond to the api call with 400 Not found
         res.status(400).send(`Unable to find a note with id ${req.params.id}.`);
     };
 });
