@@ -34,6 +34,8 @@ npm install
 
 ## Usage
 
+[![Note Taker][screenshot]](./public/assets/images/screenshot.png)
+
 To run the unit tests:
 ```sh
 npm run test
@@ -54,3 +56,6 @@ The front-end was provided by the bootcamp. The back-end is my solution to this 
 ## License
 
 MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[screenshot]: ./public/assets/images/screenshot.png
